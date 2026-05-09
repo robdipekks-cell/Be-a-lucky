@@ -80,7 +80,7 @@ local function runAutoFarm()
         end
 
 tpTo(base11:GetPivot())
-        task.wait(0)
+        task.wait(0.5)
         tpTo(base11:GetPivot())
 
         task.wait(5.5)
